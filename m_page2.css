@@ -1,0 +1,212 @@
+/*h1 {
+    position: relative;
+    font-size: 30px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0.8;
+    
+}
+h1:before, h1:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: grey;
+
+}
+h1:before {
+    margin-left: -50%;
+    text-align: right;
+}
+.color {
+    background-color: #ccc;
+}
+*/
+
+.heading-TriptoParis{
+    position: relative;
+    width: 25%;
+    letter-spacing: 1px;
+    top: 150px;
+    opacity: 0.7px;
+    
+
+}
+.back{
+    position: relative;
+    top: 170px;
+    left: 20px;
+    letter-spacing: 1px;
+}
+.back-arrow{
+    position: relative;
+    top: 133px;
+    right: 20px;
+    color: red;
+    font-size: 25px;
+    
+}
+
+.card1{
+    margin-top: 10px;
+  
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-bottom-color: solid 1px rgb(224, 28, 119);
+    border-right-color: solid 1px rgb(224, 28, 119);
+    height: 40vh;
+    width: 20%;
+    position: relative;
+    
+    top: 150px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px  rgb(136, 122, 122);
+    
+    margin: auto;
+}
+.div1{
+    position: relative;
+    
+    left: 30px;
+    top: 15px;
+    height: 15%;
+    font-size: 20px;
+    text-align: left;
+    border-bottom: 1px solid;
+    color: red;
+}
+.div2{
+    position:relative;
+    top: 30px;
+    text-decoration: line-through 2px;
+    color: red;
+    left: 45px;
+}
+.div3{
+    position: relative;
+    top: 25px;
+    left: 35px;
+}
+#fafa-addlist{
+    padding-left: 5px;
+    font-size: 20px;
+    color:red;
+    position: relative;
+    top: 100px;
+    left: 170px;
+}
+
+
+/* code for mobile UI max-width : 600px*/
+@media screen and (max-width: 600px){
+
+    .heading-TriptoParis{
+        width: 75%;
+        font-size: 1.3em;
+        
+        
+        
+    }
+    .back{
+        display: none;
+    }
+    .back-arrow{
+        position : absolute;
+        right: 325px;
+        top: 187px;
+        font-size: 2.0em;
+       
+    }
+    .card1{
+        width: 98%;
+        margin-left: 10%;
+        height : 550px;
+        top: 200px;
+    }
+    .div1{
+        font-size: 2.0em;
+        border-bottom: 1px solid red;
+        width: 90%;
+    }
+
+    .div2{
+        font-size: 1.5em;
+    }
+    .div3{
+        font-size: 1.5em;
+    }
+    #fafa-addlist{
+        font-size: 2.0em;
+        left: 280px;
+        top: 250px;
+    }
+
+    
+}
+
+
+
+
+/*
+.blur2{
+    filter: blur(3px);
+    
+}
+
+.pop-card{
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow:rgb(224, 28, 119) 1px 1px 1px;
+    border-radius: 10px;
+    border: 1px palevioletred solid;
+    position: relative;
+    width: 25%;
+    left: 500px;
+    bottom: 150px;
+   
+    height: 25vh;
+    background-color: white;
+    
+}
+.addnewlist{
+    color: red;
+    position: relative;
+    left: 120px;
+    top: 20px;
+}
+.input1{
+    position: relative;
+    top: 30px;
+    left: 25px;
+   
+    
+    
+}
+.button1{
+    position: relative;
+    left: 130px;
+    color: red;
+    top: 50px;
+    
+
+}
+#adb{
+    background-color: red;
+    border: 0px;
+    width: 70px;
+    height: 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+#adnl{
+    height: 25px;
+    width: 85%;
+    border: 1px solid red;
+}
+
+*/

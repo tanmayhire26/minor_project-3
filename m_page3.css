@@ -1,0 +1,186 @@
+.container-1{
+    display: inline-flex;
+    width: 800px;
+    position: relative;
+    top: 120px;
+    margin : auto;
+    justify-content: space-between;
+}
+
+
+.tasks{
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.lists{
+    opacity: 0.6;
+    font-size: 1.5em;
+}
+
+
+#fafa-addlist{
+    color: green;
+    font-size: 1.3em;
+}
+.addlist{
+    opacity: 0.6;
+    font-size: 1.3em;
+}
+
+
+
+.container{
+    position: relative;
+    top: 150px;
+    left: 125px;;
+    display: inline-flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    flex-direction: row;
+   
+
+}
+
+.card{
+    border: 0.6px solid;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 2px rgb(119, 113, 113);
+    padding: 25px;
+    margin: 25px;
+    
+}
+
+.div1{
+    color: maroon;
+    position: relative;
+    bottom: 25px;
+    font-size: 1.2em;
+    border-bottom: 1px solid gray;
+}
+
+.div2{
+    color: aqua;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.div3{
+    position: relative;
+    right: 3px;
+}
+.blur3{
+    filter: blur(6px);
+}
+
+.pop-up{
+    border: 1px solid red;
+    width: 35%;
+    height: 25%;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px;
+    text-align: center;
+}
+.addnewtext{
+    color: red;
+    letter-spacing: 1px;
+    margin-top: 7%;
+
+}
+#input1{
+    border: 1px solid red;
+    margin-top: 5%;
+    height: 20px;
+    width: 60%;
+}
+#add_button{
+    border: none;
+    background-color: red;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin-top: 3%;
+    height: 20px;
+    width: 50px;
+}
+
+@media screen and (max-width:600px){
+    .container-1{
+        width: 95%;
+        font-size: 2.0em;
+        
+
+    }
+    .container-11{
+        width: 80%;
+    }
+    .addlist{
+        display:none;
+    }
+    #fafa-addlist{
+       
+       
+       left: 70px;
+       
+       top: 3px;
+        color: red;
+        
+    }
+
+    .div1{
+        border:none;
+    }
+    .div2{
+        display: none;
+
+    }
+    .div3{
+        display: none;
+
+    }
+    .container{
+       
+        position: absolute;
+        left: 2px;
+        margin-top: 40px;
+        width: 98%;
+    }
+    .card{
+        height: 10px;
+        width: 98%;
+        font-size: 1.2em;
+        letter-spacing: 1px;
+    }
+    .div1{
+        color: black;
+        opacity: 0.7;
+        bottom: 30px;
+        
+    }
+    .pop-up{
+        width: 86%;
+        position: absolute;
+        left:7%;
+    }
+    .addnewtext{
+        font-size: 2.0em;
+    }
+    #input1{
+        height: 40px;
+        border-radius: 2px;
+    }
+    #add_button{
+        height: 40px;
+        width: 100px;
+        font-size: 1.6em;
+        border-radius: 25px;
+    }
+   
+    
+}
+
+    
+
+
